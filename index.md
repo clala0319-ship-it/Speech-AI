@@ -58,13 +58,15 @@ layout: null
 
   <h1>MathBridge 2 (제목 수정 필요)</h1>
 
+  <h2>
   <p style="font-size: 1.2rem; margin-top: 20px;">
     김남준, 성형기, 현시은, 김민건, 민하은, Jiyeon Shin, 조세은 .... 등 ... (전부 영문명으로 변경 필요)
   </p>
-  
+
   <p style="color: #666;">
     Seoul National University, 수정
   </p>
+  </h2>
 
   <div style="margin: 30px 0; display: flex; justify-content: center; gap: 10px;">
     <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">📄 arXiv</a>

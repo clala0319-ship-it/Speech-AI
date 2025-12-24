@@ -51,29 +51,20 @@ layout: null
 
 <div class="container">
 
-  <h1>MMPB: It's Time for Multi-Modal Personalization</h1>
-  
-  <div style="margin-top: 15px;">
-    <span style="background-color: #ff0055; color: white; padding: 5px 12px; border-radius: 20px; font-weight: bold; font-size: 0.9rem;">
-      NeurIPS 2025
-    </span>
-  </div>
+  <h1>MathBridge 2 (제목 수정 필요)<h1>
 
   <p style="font-size: 1.2rem; margin-top: 20px;">
-    <a href="#">Jaeik Kim</a><sup>1</sup>, 
-    <a href="#">Woojin Kim</a><sup>2</sup>, 
-    <a href="#">Woohyeon Park</a><sup>2</sup>,
-    <a href="#">Jaeyoung Do</a><sup>1,2</sup>
+    김남준, 성형기, 현시은, 김민건, 민하은, Jiyeon Shin, 조세은(전부 영문명으로 변경 필요)
   </p>
   
   <p style="color: #666;">
-    Seoul National University, <sup>1</sup>IPAI <sup>2</sup>ECE
+    Seoul National University (수정 필요)
   </p>
 
   <div style="margin: 30px 0; display: flex; justify-content: center; gap: 10px;">
     <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">📄 arXiv</a>
     <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">💻 Code</a>
-    <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">🤗 Dataset</a>
+    <a href=""https://huggingface.co/datasets/delay1/MathBridge2/tree/main" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">🤗 Dataset</a>
   </div>
 
   <h2>Abstract</h2>
@@ -98,34 +89,6 @@ layout: null
 }</code></pre>
 
 </div>
-
-<div align="center">
-
-  <h1 style="font-size: 2.5em; font-weight: bold; margin-bottom: 10px;">
-    MathBridge2(제목 수정 필요)
-  </h1>
-
-  <p style="font-size: 1.2em;">
-    김남준, 성형기, 현시은, 김민건, 민하은, Jiyeon Shin, 조세은(전부 영문명으로 변경 필요)
-    
-  </p>
-
-  <p style="color: #555;">
-    Seoul National University, 혁신융합대학(수정 필요)
-  </p>
-
-
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <a href="링크주소" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-weight: bold;">
-      📄 arXiv
-    </a>
-    <a href="링크주소" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-weight: bold;">
-      💻 Code
-    </a>
-    <a href="https://huggingface.co/datasets/delay1/MathBridge2/tree/main" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-weight: bold;">
-      🤗 Dataset
-    </a>
-  </div>
 
 </div>
 <br>

@@ -1,51 +1,53 @@
 ---
 layout: null
 ---
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MMPB Project Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MMPB Project Page</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<style>
+  /* 기본 설정 */
+  body {
+    font-family: 'Google Sans', sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 내용을 가운데로 모아주는 컨테이너 */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  /* 제목 및 폰트 스타일 */
+  h1 { font-size: 2.5rem; font-weight: bold; margin-bottom: 10px; line-height: 1.2; }
+  h2 { font-size: 2rem; margin-top: 50px; margin-bottom: 20px; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+  a { color: #209cee; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* 본문 정렬 */
+  .content-text {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
   
-  <style>
-    body {
-      font-family: 'Google Sans', sans-serif;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    h1 { font-size: 2.5rem; margin-bottom: 10px; line-height: 1.2; }
-    h2 { font-size: 2rem; margin-top: 50px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
-    a { color: #209cee; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    
-    /* 요약문 등 본문 스타일 */
-    .content-text {
-      text-align: justify;
-      font-size: 1.1rem;
-      line-height: 1.6;
-    }
-    
-    /* BibTeX 코드 박스 */
-    pre {
-      background: #f5f5f5;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: left;
-      overflow-x: auto;
-    }
-  </style>
-</head>
-<body>
+  /* BibTeX 박스 */
+  pre {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    overflow-x: auto;
+  }
+</style>
 
 <div class="container">
 
@@ -96,8 +98,6 @@ layout: null
 }</code></pre>
 
 </div>
-</body>
-</html>
 
 <div align="center">
 

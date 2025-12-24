@@ -1,34 +1,128 @@
 ---
-layout: default
-title: Home
+layout: null
 ---
-<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MMPB Project Page</title>
 
-<style>
-.main-content, .wrapper, .container {
-max-width: 1000px !important;
-width: 100% !important;
-padding: 20px !important;
-margin: 0 auto !important; 
-}
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-body, h1, h2, h3, h4, p, a {
-font-family: 'Google Sans', 'Noto Sans', sans-serif !important;
-color: #333;
-}
+  <style>
+    /* 전체 페이지 디자인 설정 */
+    body {
+      font-family: 'Google Sans', sans-serif;
+      color: #333;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* 내용을 가운데로 모아주는 컨테이너 */
+    .container {
+      max-width: 900px; /* 폭을 적당히 넓게 */
+      margin: 0 auto;   /* 가운데 정렬 */
+      padding: 40px 20px;
+      text-align: center; /* 기본적으로 가운데 정렬 */
+    }
+
+    /* 제목 스타일 */
+    h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+    
+    h2 {
+      font-size: 2rem;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+
+    /* 링크 스타일 */
+    a { color: #209cee; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* 본문 텍스트 정렬 (초록이나 본문은 왼쪽 정렬이 읽기 좋음) */
+    .content-text {
+      text-align: justify;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    
+    /* 코드 박스 (BibTeX용) */
+    pre {
+      background: #f5f5f5;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: left;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <h1>MMPB: It's Time for Multi-Modal Personalization</h1>
+  
+  <div style="margin-top: 15px;">
+    <span style="background-color: #ff0055; color: white; padding: 5px 12px; border-radius: 20px; font-weight: bold; font-size: 0.9rem;">
+      NeurIPS 2025
+    </span>
+  </div>
+
+  <p style="font-size: 1.2rem; margin-top: 20px;">
+    <a href="#">Jaeik Kim</a><sup>1</sup>, 
+    <a href="#">Woojin Kim</a><sup>2</sup>, 
+    <a href="#">Woohyeon Park</a><sup>2</sup>
+  </p>
+  
+  <p style="color: #666;">
+    Seoul National University, <sup>1</sup>IPAI <sup>2</sup>ECE
+  </p>
+
+  <div style="margin: 30px 0; display: flex; justify-content: center; gap: 10px;">
+    <a href="URL_HERE" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">
+      📄 arXiv
+    </a>
+    <a href="URL_HERE" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">
+      💻 Code
+    </a>
+    <a href="URL_HERE" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">
+      🤗 Dataset
+    </a>
+  </div>
+
+  <h2>Abstract</h2>
+  <div class="content-text">
+    <p>
+      Visual personalization is essential for user-facing AI systems... (여기에 본문 내용을 채워 넣으세요)
+    </p>
+  </div>
+
+  <h2>Key Takeaways</h2>
+  <img src="업로드한_이미지_파일명.png" style="width: 100%; border-radius: 10px; margin-top: 20px;">
 
 
-h1 { font-size: 2.5em !important; line-height: 1.2 !important; margin-top: 30px !important;}
-h2 { font-size: 1.8em !important; margin-top: 40px !important; margin-bottom: 20px !important;}
+  <h2>BibTeX</h2>
+  <pre><code>@inproceedings{kim2025mmpb,
+  title={MMPB: It's Time for Multi-Modal Personalization},
+  author={Kim, Jaeik and Kim, Woojin and Park, Woohyeon and Do, Jaeyoung},
+  booktitle={NeurIPS},
+  year={2025}
+}</code></pre>
 
+</div>
 
-a { color: #209cee; text-decoration: none; }
-a:hover { color: #1476b8; text-decoration: underline; }
-
-
-header, footer { display: none !important; }
-</style>
+</body>
+</html>
 
 <div align="center">
 

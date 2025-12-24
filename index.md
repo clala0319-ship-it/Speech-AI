@@ -27,7 +27,7 @@ layout: null
   }
 
   /* 제목 및 텍스트 스타일 */
-  h1 { font-size: 1.7rem; font-weight: bold; margin-bottom: 10px; line-height: 1.2; }
+  h1 { font-size: 2.0rem; font-weight: bold; margin-bottom: 10px; line-height: 1.2; }
   h2 { font-size: 1.8rem; margin-top: 50px; margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 10px; text-align: center;}
   h3 { font-size: 1.2rem; margin-top: 30px; margin-bottom: 15px; }
   
@@ -57,16 +57,19 @@ layout: null
 <div class="container">
 
   <h1>MathBridge 2 (제목 수정 필요)</h1>
-
-  <h2>
-  <p style="font-size: 1.2rem; margin-top: 20px;">
-    김남준, 성형기, 현시은, 김민건, 민하은, Jiyeon Shin, 조세은 .... 등 ... (전부 영문명으로 변경 필요)
-  </p>
-
-  <p style="color: #666;">
-    Seoul National University, 수정
-  </p>
-  </h2>
+  
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="#" style="font-size: 1.0rem; color: #209cee; text-decoration: none;">member1</a><sup>1</sup>, 
+    <a href="#" style="font-size: 1.0rem; color: #209cee; text-decoration: none;">member2</a><sup>2</sup>, 
+    <a href="#" style="font-size: 1.0rem; color: #209cee; text-decoration: none;">member3</a><sup>2</sup>,
+    <a href="#" style="font-size: 1.0rem; color: #209cee; text-decoration: none;">member4</a><sup>1,2</sup>
+  </div>
+  
+  <div style="text-align: center; margin-top: 10px;">
+    <p style="color: #444; font-size: 1.2rem; font-weight: 500; margin: 0;">
+      Seoul National University, <sup>1</sup>IPAI <sup>2</sup>ECE
+    </p>
+  </div>
 
   <div style="margin: 30px 0; display: flex; justify-content: center; gap: 10px;">
     <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">📄 arXiv</a>
@@ -74,10 +77,10 @@ layout: null
     <a href="https://huggingface.co/datasets/delay1/MathBridge2/tree/main" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">🤗 Dataset</a>
   </div>
 
-  <h2>Abstract</h2>
-  <div class="content-text">
-    <p>
-    본문 내용
+<h2>Abstract</h2>
+  <div class="content-text" style="text-align: center !important;">
+    <p style="margin: 0 auto; max-width: 900px; display: inline-block;">
+      본문 내용
     </p>
   </div>
 

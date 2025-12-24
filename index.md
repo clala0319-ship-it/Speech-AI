@@ -64,7 +64,7 @@ layout: null
   <div style="margin: 30px 0; display: flex; justify-content: center; gap: 10px;">
     <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">📄 arXiv</a>
     <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">💻 Code</a>
-    <a href=""https://huggingface.co/datasets/delay1/MathBridge2/tree/main" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">🤗 Dataset</a>
+    <a href="https://huggingface.co/datasets/delay1/MathBridge2/tree/main" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">🤗 Dataset</a>
   </div>
 
   <h2>Abstract</h2>
@@ -87,14 +87,13 @@ layout: null
   
   <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">1. Overview</h3>
   <p style="font-size: 1.1rem; margin-left: 15px;">
-    <strong>• Total Samples:</strong> 31,336 개
+    <strong>• Total Samples (총 문장 수):</strong> 31,336 개
   </p>
 
-  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">2. Distribution of Subjects </h3>
+  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">2. Distribution of Subjects</h3>
   
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/images/result2.png" style="max-width: 80%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-    <p style="color: #666; font-size: 0.9rem;">Figure: Subject Distribution</p>
   </div>
 
   <div style="overflow-x: auto;">
@@ -117,11 +116,10 @@ layout: null
     </table>
   </div>
 
-  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">3. Math Formula Ratio </h3>
+  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">3. Math Formula Ratio</h3>
   
   <div style="text-align: center; margin: 20px 0;">
     <img src="assets/images/result1.png" style="max-width: 80%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-    <p style="color: #666; font-size: 0.9rem;">Figure: Formula Ratio Analysis</p>
   </div>
 
   <div style="overflow-x: auto;">
@@ -133,14 +131,14 @@ layout: null
         </tr>
       </thead>
       <tbody>
-        <tr><td style="padding: 8px; border: 1px solid #ddd;">Total analyzed words (context + spoken)</td><td style="padding: 8px; border: 1px solid #ddd;">1,035,321</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Total analyzed words</td><td style="padding: 8px; border: 1px solid #ddd;">1,035,321</td></tr>
         <tr><td style="padding: 8px; border: 1px solid #ddd;">Total spoken (formula) words</td><td style="padding: 8px; border: 1px solid #ddd;">112,880</td></tr>
         <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold; color: #209cee;">Formula Ratio</td><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold; color: #209cee;">10.90%</td></tr>
       </tbody>
     </table>
   </div>
 
-  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">4. Text Length Statistics </h3>
+  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">4. Text Length Statistics</h3>
   <div style="overflow-x: auto;">
     <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; text-align: center;">
       <thead style="background-color: #f8f9fa;">
@@ -159,7 +157,7 @@ layout: null
     </table>
   </div>
 
-  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">5. Diversity Metrics </h3>
+  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">5. Diversity Metrics</h3>
   <div style="overflow-x: auto;">
     <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; text-align: center; font-size: 0.9rem;">
       <thead style="background-color: #f8f9fa;">
@@ -177,7 +175,6 @@ layout: null
         <tr><td style="padding: 8px; border: 1px solid #ddd; text-align: left;">TTR</td><td>0.0126</td><td>0.0015</td><td><strong>0.00188</strong></td><td><strong>0.0754</strong></td></tr>
         <tr><td style="padding: 8px; border: 1px solid #ddd; text-align: left;">Shannon Entropy</td><td><strong>5.8024</strong></td><td>3.7460</td><td>5.2485</td><td><strong>5.8944</strong></td></tr>
         <tr><td style="padding: 8px; border: 1px solid #ddd; text-align: left;">Norm. Entropy</td><td>0.5798</td><td><strong>0.6342</strong></td><td>0.5993</td><td><strong>0.5260</strong></td></tr>
-        <tr><td style="padding: 8px; border: 1px solid #ddd; text-align: left;">Avg unique/eq</td><td>2.1930</td><td>1.0805</td><td>—</td><td>—</td></tr>
       </tbody>
     </table>
   </div>

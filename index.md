@@ -27,16 +27,16 @@ layout: null
   }
 
   /* 제목 및 텍스트 스타일 */
-  h1 { font-size: 2.5rem; font-weight: bold; margin-bottom: 10px; line-height: 1.2; }
-  h2 { font-size: 2rem; margin-top: 50px; margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 10px; text-align: center;}
-  h3 { font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; }
+  h1 { font-size: 2.0rem; font-weight: bold; margin-bottom: 10px; line-height: 1.2; }
+  h2 { font-size: 1.8rem; margin-top: 50px; margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 10px; text-align: center;}
+  h3 { font-size: 1.2rem; margin-top: 30px; margin-bottom: 15px; }
   
   a { color: #209cee; text-decoration: none; }
   a:hover { text-decoration: underline; }
 
   /* 본문 정렬 */
   .content-text {
-    text-align: justify;
+    text-align: center;
     font-size: 1.1rem;
     line-height: 1.6;
     max-width: 900px;

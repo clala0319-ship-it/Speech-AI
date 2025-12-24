@@ -151,7 +151,7 @@ layout: null
 
   </div>
 
-  <h2>Citations</h2>
+  <h2>Citation</h2>
    내용 추가 
 
 </div>

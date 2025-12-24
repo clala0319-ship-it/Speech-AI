@@ -79,65 +79,108 @@ layout: null
 
   <h2>Results</h2>
    내용 추
+
+
+<h2>Statistics</h2>
+
+<div style="text-align: left; max-width: 800px; margin: 0 auto;">
   
-# Math Speech
-**짧은 한 줄 소개** — 예: *Multimodal Something for Something.*
+  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">1. Overview</h3>
+  <p style="font-size: 1.1rem; margin-left: 15px;">
+    <strong>• Total Samples:</strong> 31,336 개
+  </p>
 
----
+  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">2. Distribution of Subjects </h3>
+  
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/images/result2.png" style="max-width: 80%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <p style="color: #666; font-size: 0.9rem;">Figure: Subject Distribution</p>
+  </div>
 
-## Overview
-### 1. 샘플수 : 총 문장 수 
- - 31336개
-   
+  <div style="overflow-x: auto;">
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; text-align: center;">
+      <thead style="background-color: #f8f9fa;">
+        <tr>
+          <th style="padding: 12px; border: 1px solid #ddd;">Field</th>
+          <th style="padding: 12px; border: 1px solid #ddd;">Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Calculus</td><td style="padding: 8px; border: 1px solid #ddd;">338</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Algebra</td><td style="padding: 8px; border: 1px solid #ddd;">218</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Linear Algebra</td><td style="padding: 8px; border: 1px solid #ddd;">9</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Geometry</td><td style="padding: 8px; border: 1px solid #ddd;">3</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Economics</td><td style="padding: 8px; border: 1px solid #ddd;">2</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Statistics</td><td style="padding: 8px; border: 1px solid #ddd;">2</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Analysis</td><td style="padding: 8px; border: 1px solid #ddd;">6</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-### 2. 강의과목비율
+  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">3. Math Formula Ratio </h3>
+  
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="assets/images/result1.png" style="max-width: 80%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <p style="color: #666; font-size: 0.9rem;">Figure: Formula Ratio Analysis</p>
+  </div>
 
-![결과 요약 그림2](assets/images/result2.png)
+  <div style="overflow-x: auto;">
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; text-align: center;">
+      <thead style="background-color: #f8f9fa;">
+        <tr>
+          <th style="padding: 12px; border: 1px solid #ddd;">Field</th>
+          <th style="padding: 12px; border: 1px solid #ddd;">Count / Ratio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Total analyzed words (context + spoken)</td><td style="padding: 8px; border: 1px solid #ddd;">1,035,321</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Total spoken (formula) words</td><td style="padding: 8px; border: 1px solid #ddd;">112,880</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold; color: #209cee;">Formula Ratio</td><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold; color: #209cee;">10.90%</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-| Field | Count |
-|------|------:|
-| Calculus | 338 |
-| Algebra | 218 |
-| Linear Algebra | 9 |
-| Geometry | 3 |
-| Economics | 2 |
-| Statistics | 2 |
-| Analysis | 6 |
+  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">4. Text Length Statistics </h3>
+  <div style="overflow-x: auto;">
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; text-align: center;">
+      <thead style="background-color: #f8f9fa;">
+        <tr>
+          <th style="padding: 12px; border: 1px solid #ddd;">Metric</th>
+          <th style="padding: 12px; border: 1px solid #ddd;">Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Total Tokens</td><td style="padding: 8px; border: 1px solid #ddd;">4,545,332</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Total Lines</td><td style="padding: 8px; border: 1px solid #ddd;">31,336</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Avg Tokens per Line</td><td style="padding: 8px; border: 1px solid #ddd;">145.08</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Max Line Length</td><td style="padding: 8px; border: 1px solid #ddd;">2,417</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd;">Min Line Length</td><td style="padding: 8px; border: 1px solid #ddd;">4</td></tr>
+      </tbody>
+    </table>
+  </div>
 
+  <h3 style="border-left: 5px solid #209cee; padding-left: 10px; margin-top: 40px;">5. Diversity Metrics </h3>
+  <div style="overflow-x: auto;">
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; text-align: center; font-size: 0.9rem;">
+      <thead style="background-color: #f8f9fa;">
+        <tr>
+          <th style="padding: 10px; border: 1px solid #ddd;">Metric</th>
+          <th style="padding: 10px; border: 1px solid #ddd;">Symbol</th>
+          <th style="padding: 10px; border: 1px solid #ddd;">Operator</th>
+          <th style="padding: 10px; border: 1px solid #ddd;">Combined</th>
+          <th style="padding: 10px; border: 1px solid #ddd;">Structural Pattern</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="padding: 8px; border: 1px solid #ddd; text-align: left;">Total Tokens</td><td>81,790</td><td>40,925</td><td><strong>230,211</strong></td><td>31,336</td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd; text-align: left;">Unique Types</td><td>1,030</td><td>60</td><td>433</td><td><strong>2,362</strong></td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd; text-align: left;">TTR</td><td>0.0126</td><td>0.0015</td><td><strong>0.00188</strong></td><td><strong>0.0754</strong></td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd; text-align: left;">Shannon Entropy</td><td><strong>5.8024</strong></td><td>3.7460</td><td>5.2485</td><td><strong>5.8944</strong></td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd; text-align: left;">Norm. Entropy</td><td>0.5798</td><td><strong>0.6342</strong></td><td>0.5993</td><td><strong>0.5260</strong></td></tr>
+        <tr><td style="padding: 8px; border: 1px solid #ddd; text-align: left;">Avg unique/eq</td><td>2.1930</td><td>1.0805</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-### 3. 일반 텍스트 대비 수식이 차지하는 비율
-
-![결과 요약 그림](assets/images/result1.png)
-
-| Field | Count |
-|---|---:|
-| 총 분석된 단어 수 (context + spoken) | 1,035,321개 |
-| 총 spoken (수식) 단어 수 | 112,880개 |
-| 일반 텍스트 대비 spoken (수식)이 차지하는 비율 | **10.90%** |
-
-
-### 4. 텍스트 전체 길이
-
-| Field | Count |
-|---|---:|
-| 총 토큰 수 | 4,545,332 |
-| 총 라인 수 | 31,336 |
-| 라인당 평균 토큰 수 | 145.08 |
-| 가장 긴 라인 | 2,417 |
-| 가장 짧은 라인 | 4 |
-
-
-### 5. 수식 텍스트 다양성 지표
-
-| Metric | Symbol | Operator | Combined (Symbol+Operator) | Structural Pattern Diversity |
-|------|--------|----------|-----------------------------|-------------------------------|
-| total tokens | 81,790 | 40,925 | **230,211** | 31,336 |
-| unique types | 1,030 | 60 | 433 | **2,362** |
-| TTR | 0.0126 | 0.0015 | **0.00188** | **0.0754** |
-| Shannon Entropy (bits) | **5.8024** | 3.7460 | 5.2485 | **5.8944** |
-| Normalized Entropy | 0.5798 | **0.6342** | 0.5993 | **0.5260** |
-| avg unique tokens / equation | 2.1930 | 1.0805 | — | — |
-
-
-## Datasat Links
-- [MathBridge2 (Hugging Face)](https://huggingface.co/datasets/delay1/MathBridge2/tree/main)
+</div>
+<br><br>

@@ -9,54 +9,33 @@ layout: null
   <title>MMPB Project Page</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+  
   <style>
-    /* 전체 페이지 디자인 설정 */
     body {
       font-family: 'Google Sans', sans-serif;
       color: #333;
-      background-color: #fff;
       margin: 0;
       padding: 0;
     }
-
-    /* 내용을 가운데로 모아주는 컨테이너 */
     .container {
-      max-width: 900px; /* 폭을 적당히 넓게 */
-      margin: 0 auto;   /* 가운데 정렬 */
+      max-width: 900px;
+      margin: 0 auto;
       padding: 40px 20px;
-      text-align: center; /* 기본적으로 가운데 정렬 */
+      text-align: center;
     }
-
-    /* 제목 스타일 */
-    h1 {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin-bottom: 10px;
-      line-height: 1.2;
-    }
-    
-    h2 {
-      font-size: 2rem;
-      margin-top: 50px;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 10px;
-    }
-
-    /* 링크 스타일 */
+    h1 { font-size: 2.5rem; margin-bottom: 10px; line-height: 1.2; }
+    h2 { font-size: 2rem; margin-top: 50px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
     a { color: #209cee; text-decoration: none; }
     a:hover { text-decoration: underline; }
-
-    /* 본문 텍스트 정렬 (초록이나 본문은 왼쪽 정렬이 읽기 좋음) */
+    
+    /* 요약문 등 본문 스타일 */
     .content-text {
       text-align: justify;
       font-size: 1.1rem;
       line-height: 1.6;
     }
     
-    /* 코드 박스 (BibTeX용) */
+    /* BibTeX 코드 박스 */
     pre {
       background: #f5f5f5;
       padding: 20px;
@@ -81,7 +60,8 @@ layout: null
   <p style="font-size: 1.2rem; margin-top: 20px;">
     <a href="#">Jaeik Kim</a><sup>1</sup>, 
     <a href="#">Woojin Kim</a><sup>2</sup>, 
-    <a href="#">Woohyeon Park</a><sup>2</sup>
+    <a href="#">Woohyeon Park</a><sup>2</sup>,
+    <a href="#">Jaeyoung Do</a><sup>1,2</sup>
   </p>
   
   <p style="color: #666;">
@@ -89,15 +69,9 @@ layout: null
   </p>
 
   <div style="margin: 30px 0; display: flex; justify-content: center; gap: 10px;">
-    <a href="URL_HERE" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">
-      📄 arXiv
-    </a>
-    <a href="URL_HERE" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">
-      💻 Code
-    </a>
-    <a href="URL_HERE" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">
-      🤗 Dataset
-    </a>
+    <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">📄 arXiv</a>
+    <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">💻 Code</a>
+    <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">🤗 Dataset</a>
   </div>
 
   <h2>Abstract</h2>
@@ -108,8 +82,10 @@ layout: null
   </div>
 
   <h2>Key Takeaways</h2>
-  <img src="업로드한_이미지_파일명.png" style="width: 100%; border-radius: 10px; margin-top: 20px;">
+  <img src="업로드한_이미지_이름.png" style="width: 100%; border-radius: 10px; border: 1px solid #eee;">
 
+  <h2>Results</h2>
+  <img src="결과표_이미지_이름.png" style="width: 100%; border-radius: 10px;">
 
   <h2>BibTeX</h2>
   <pre><code>@inproceedings{kim2025mmpb,
@@ -120,7 +96,6 @@ layout: null
 }</code></pre>
 
 </div>
-
 </body>
 </html>
 

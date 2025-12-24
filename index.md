@@ -2,6 +2,63 @@
 layout: default
 title: Home
 ---
+<div align="center">
+
+  <h1 style="font-size: 2.5em; font-weight: bold; margin-bottom: 10px;">
+    MMPB: It's Time for Multi-Modal Personalization
+  </h1>
+
+  <span style="background-color: #ff0055; color: white; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em;">
+    NeurIPS 2025
+  </span>
+
+  <br><br>
+
+  <p style="font-size: 1.2em;">
+    <a href="#" style="color: #4169E1; text-decoration: none;">Jaeik Kim</a><sup>1</sup>, 
+    <a href="#" style="color: #4169E1; text-decoration: none;">Woojin Kim</a><sup>2</sup>,
+    <a href="#" style="color: #4169E1; text-decoration: none;">Woohyeon Park</a><sup>2</sup>
+  </p>
+
+  <p style="color: #555;">
+    Seoul National University, <sup>1</sup>IPAI <sup>2</sup>ECE
+  </p>
+
+  <br>
+
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <a href="링크주소" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-weight: bold;">
+      📄 arXiv
+    </a>
+    <a href="링크주소" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-weight: bold;">
+      💻 Code
+    </a>
+    <a href="링크주소" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-weight: bold;">
+      🤗 Dataset
+    </a>
+  </div>
+
+  <br>
+
+  <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+    <span style="border: 1px solid #ddd; padding: 5px 10px; border-radius: 20px; color: #555; font-size: 0.9em;">
+      111 concepts
+    </span>
+    <span style="border: 1px solid #ddd; padding: 5px 10px; border-radius: 20px; color: #555; font-size: 0.9em;">
+      10k+ image-query pairs
+    </span>
+    <span style="border: 1px solid #ddd; padding: 5px 10px; border-radius: 20px; color: #555; font-size: 0.9em;">
+      23 VLMs evaluated
+    </span>
+  </div>
+
+</div>
+<br>
+<hr>
+
+## Abstract
+여기에 논문 요약 내용을 적으시면 됩니다...
+---
 
 # Math Speech
 **짧은 한 줄 소개** — 예: *Multimodal Something for Something.*

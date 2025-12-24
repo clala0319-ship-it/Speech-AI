@@ -159,12 +159,4 @@ layout: null
       </table>
     </div>
 
-  </div> <h2>BibTeX</h2>
-  <pre><code>@inproceedings{kim2025mmpb,
-  title={MMPB: It's Time for Multi-Modal Personalization},
-  author={Kim, Jaeik and Kim, Woojin and Park, Woohyeon and Do, Jaeyoung},
-  booktitle={NeurIPS},
-  year={2025}
-}</code></pre>
-
 </div>

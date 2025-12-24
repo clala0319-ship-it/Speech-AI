@@ -70,38 +70,16 @@ layout: null
   <h2>Abstract</h2>
   <div class="content-text">
     <p>
-      Visual personalization is essential for user-facing AI systems... (여기에 본문 내용을 채워 넣으세요)
+      초록 추후 작성
     </p>
   </div>
 
   <h2>Key Takeaways</h2>
-  <img src="업로드한_이미지_이름.png" style="width: 100%; border-radius: 10px; border: 1px solid #eee;">
+   내용 추가
 
   <h2>Results</h2>
-  <img src="결과표_이미지_이름.png" style="width: 100%; border-radius: 10px;">
-
-  <h2>BibTeX</h2>
-  <pre><code>@inproceedings{kim2025mmpb,
-  title={MMPB: It's Time for Multi-Modal Personalization},
-  author={Kim, Jaeik and Kim, Woojin and Park, Woohyeon and Do, Jaeyoung},
-  booktitle={NeurIPS},
-  year={2025}
-}</code></pre>
-
-</div>
-
-</div>
-<br>
-<hr>
-
-<div style="max-width: 800px; margin: 0 auto; text-align: justify;">
-  <h2 style="text-align: center;">Abstract</h2>
-  <p style="font-size: 1.1em; line-height: 1.6;">
-    초록 넣기
-  </p>
-</div>
-<br><br>
-
+   내용 추
+  
 # Math Speech
 **짧은 한 줄 소개** — 예: *Multimodal Something for Something.*
 

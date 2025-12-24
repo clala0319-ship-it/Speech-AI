@@ -2,29 +2,49 @@
 layout: default
 title: Home
 ---
+<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<style>
+.main-content, .wrapper, .container {
+max-width: 1000px !important;
+width: 100% !important;
+padding: 20px !important;
+margin: 0 auto !important; 
+}
+
+body, h1, h2, h3, h4, p, a {
+font-family: 'Google Sans', 'Noto Sans', sans-serif !important;
+color: #333;
+}
+
+
+h1 { font-size: 2.5em !important; line-height: 1.2 !important; margin-top: 30px !important;}
+h2 { font-size: 1.8em !important; margin-top: 40px !important; margin-bottom: 20px !important;}
+
+
+a { color: #209cee; text-decoration: none; }
+a:hover { color: #1476b8; text-decoration: underline; }
+
+
+header, footer { display: none !important; }
+</style>
+
 <div align="center">
 
   <h1 style="font-size: 2.5em; font-weight: bold; margin-bottom: 10px;">
-    MMPB: It's Time for Multi-Modal Personalization
+    MathBridge2(제목 수정 필요)
   </h1>
 
-  <span style="background-color: #ff0055; color: white; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em;">
-    NeurIPS 2025
-  </span>
-
-  <br><br>
-
   <p style="font-size: 1.2em;">
-    <a href="#" style="color: #4169E1; text-decoration: none;">Jaeik Kim</a><sup>1</sup>, 
-    <a href="#" style="color: #4169E1; text-decoration: none;">Woojin Kim</a><sup>2</sup>,
-    <a href="#" style="color: #4169E1; text-decoration: none;">Woohyeon Park</a><sup>2</sup>
+    김남준, 성형기, 현시은, 김민건, 민하은, Jiyeon Shin, 조세은(전부 영문명으로 변경 필요)
+    
   </p>
 
   <p style="color: #555;">
-    Seoul National University, <sup>1</sup>IPAI <sup>2</sup>ECE
+    Seoul National University, 혁신융합대학(수정 필요)
   </p>
 
-  <br>
 
   <div style="display: flex; justify-content: center; gap: 10px;">
     <a href="링크주소" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-weight: bold;">
@@ -33,32 +53,22 @@ title: Home
     <a href="링크주소" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-weight: bold;">
       💻 Code
     </a>
-    <a href="링크주소" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-weight: bold;">
+    <a href="https://huggingface.co/datasets/delay1/MathBridge2/tree/main" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-weight: bold;">
       🤗 Dataset
     </a>
-  </div>
-
-  <br>
-
-  <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-    <span style="border: 1px solid #ddd; padding: 5px 10px; border-radius: 20px; color: #555; font-size: 0.9em;">
-      111 concepts
-    </span>
-    <span style="border: 1px solid #ddd; padding: 5px 10px; border-radius: 20px; color: #555; font-size: 0.9em;">
-      10k+ image-query pairs
-    </span>
-    <span style="border: 1px solid #ddd; padding: 5px 10px; border-radius: 20px; color: #555; font-size: 0.9em;">
-      23 VLMs evaluated
-    </span>
   </div>
 
 </div>
 <br>
 <hr>
 
-## Abstract
-여기에 논문 요약 내용을 적으시면 됩니다...
----
+<div style="max-width: 800px; margin: 0 auto; text-align: justify;">
+  <h2 style="text-align: center;">Abstract</h2>
+  <p style="font-size: 1.1em; line-height: 1.6;">
+    초록 넣기
+  </p>
+</div>
+<br><br>
 
 # Math Speech
 **짧은 한 줄 소개** — 예: *Multimodal Something for Something.*

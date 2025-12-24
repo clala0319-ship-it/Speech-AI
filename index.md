@@ -27,7 +27,7 @@ layout: null
   }
 
   /* 제목 및 텍스트 스타일 */
-  h1 { font-size: 2.0rem; font-weight: bold; margin-bottom: 10px; line-height: 1.2; }
+  h1 { font-size: 1.7rem; font-weight: bold; margin-bottom: 10px; line-height: 1.2; }
   h2 { font-size: 1.8rem; margin-top: 50px; margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 10px; text-align: center;}
   h3 { font-size: 1.2rem; margin-top: 30px; margin-bottom: 15px; }
   
@@ -75,7 +75,7 @@ layout: null
   <h2>Abstract</h2>
   <div class="content-text">
     <p>
-      (본문 내용)
+    본문 내용
     </p>
   </div>
 

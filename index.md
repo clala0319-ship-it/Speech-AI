@@ -67,36 +67,93 @@ layout: null
     <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">💻 Code</a>
     <a href="https://huggingface.co/datasets/delay1/MathBridge2/tree/main" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">🤗 Dataset</a>
   </div>
+<style>
+  .paper-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif; /* 학술적 느낌을 위한 폰트 설정 */
+    line-height: 1.6;
+    color: #333;
+  }
+  .section-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .abstract-content {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 40px;
+    font-size: 1.05em;
+  }
+  .list-content {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+  }
+  .list-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  .list-content li {
+    margin-bottom: 12px;
+  }
+  .highlight {
+    font-weight: bold;
+    color: #000;
+  }
+</style>
 
-<h2>Abstract</h2>
-  <div class="content-text" style="text-align: center !important;">
-    <p style="margin: 0 auto; max-width: 900px; display: inline-block;">
-      Converting spoken mathematical expressions into LaTeX is a critical yet under-addressed
-problem: it requires translating ambiguous, conversational speech into a rigid symbolic language while
-recovering precise structure such as nesting, operator precedence, and scope. As lecture capture and AI
-assisted learning tools become ubiquitous, the inability to reliably convert spoken mathematics into editable,
-searchable LaTeX has become a practical bottleneck for education and research—limiting high-quality
-lecture transcription, accessible note-taking, and downstream reuse of mathematical content. Despite major
-advances inautomatic speechrecognition (ASR)andlargelanguagemodels(LLMs),existingapproachesfor
-mathematical ASR post-correction often depend on multiple transcripts, focus on isolated equations rather
-than natural lecture utterances, and are evaluated on small, constrained test sets. These limitations leave the
-real-world lecture settings—where speakers omit terms, reference symbols implicitly, and mix equations
-with explanatory sentences—largely unseen. To close this gap, we release the first fully open-source, large
-scale dataset of spokenmathematics:over30,000human-annotatedaudiosamplesfromrealEnglishlectures,
-spanning diverse scientific domains and covering both equations and mathematical sentences. We also
-introduce a practical conversion pipeline that pairs an ASR post-correction model with a formula-detecting
-LLM to more accurately identify and render mathematical content in lecture speech. On our new S2L
-Equationsbenchmark,ourmodelsoutperformMathSpeechbymorethanxx.xpercentagepoints,establishing
-a strong baseline for speech-to-LaTeX conversion under realistic lecture conditions.
-    </p>
+<div class="paper-section">
+  
+  <h2 class="section-title">Abstract</h2>
+  <div class="abstract-content">
+    Converting spoken mathematical expressions into LaTeX is a critical yet under-addressed 
+    problem: it requires translating ambiguous, conversational speech into a rigid symbolic language while 
+    recovering precise structure such as nesting, operator precedence, and scope. As lecture capture and AI 
+    assisted learning tools become ubiquitous, the inability to reliably convert spoken mathematics into editable, 
+    searchable LaTeX has become a practical bottleneck for education and research—limiting high-quality 
+    lecture transcription, accessible note-taking, and downstream reuse of mathematical content. Despite major 
+    advances in automatic speech recognition (ASR) and large language models (LLMs), existing approaches for 
+    mathematical ASR post-correction often depend on multiple transcripts, focus on isolated equations rather 
+    than natural lecture utterances, and are evaluated on small, constrained test sets. These limitations leave the 
+    real-world lecture settings—where speakers omit terms, reference symbols implicitly, and mix equations 
+    with explanatory sentences—largely unseen. To close this gap, we release the first fully open-source, large 
+    scale dataset of spoken mathematics: over 30,000 human-annotated audio samples from real English lectures, 
+    spanning diverse scientific domains and covering both equations and mathematical sentences. We also 
+    introduce a practical conversion pipeline that pairs an ASR post-correction model with a formula-detecting 
+    LLM to more accurately identify and render mathematical content in lecture speech. On our new S2L 
+    Equations benchmark, our models outperform MathSpeech by more than xx.x percentage points, establishing 
+    a strong baseline for speech-to-LaTeX conversion under realistic lecture conditions.
   </div>
 
-  <h2>Key Takeaways</h2>
-   내용 추가
+  <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
-  <h2>Results</h2>
-   내용 추가 
+  <h2 class="section-title">Key Takeaways</h2>
+  <div class="list-content">
+    <ul>
+      <li><span class="highlight">Introduction of S2L Dataset:</span> We present the first large-scale, open-source dataset for Speech-to-LaTeX (S2L) conversion, featuring over 30,000 human-annotated samples from real lectures and 571,000 synthetic samples.</li>
+      <li><span class="highlight">Addressing Real-World Complexity:</span> This work specifically tackles "mixed-content" scenarios where mathematical expressions are naturally interleaved with explanatory natural language, reflecting actual lecture environments.</li>
+      <li><span class="highlight">Novel ASR Post-Correction Pipeline:</span> We propose a robust pipeline pairing state-of-the-art ASR models with fine-tuned formula-detecting LLMs to resolve operator precedence and structural ambiguities.</li>
+      <li><span class="highlight">Commitment to Open Science:</span> By releasing a high-quality human-annotated corpus and a generation pipeline, we establish a foundation for accessible scientific note-taking and content reuse.</li>
+    </ul>
+  </div>
 
+  <h2 class="section-title">Results</h2>
+  <div class="list-content">
+    <ul>
+      <li><span class="highlight">Superior Performance:</span> Our Enhanced MathSpeech pipeline significantly outperforms existing baselines (e.g., MathSpeech) on the S2L-Equations benchmark in both CER and TexBLEU metrics.</li>
+      <li><span class="highlight">Robust Mixed-Content Transcription:</span> The LLM-based detection module maintains high accuracy in transcribing natural language while precisely rendering embedded LaTeX formulas.</li>
+      <li><span class="highlight">High Mathematical Fidelity:</span> Our fine-tuned Qwen2.5-Math models demonstrate a high compilation success rate, ensuring syntactically correct symbolic structures even with ambiguous speech.</li>
+      <li><span class="highlight">Efficiency at Scale:</span> With models as small as 120M parameters, the proposed pipeline offers superior performance-efficiency trade-offs compared to much larger commercial LLMs.</li>
+    </ul>
+  </div>
+
+</div>
   <h2>Statistics</h2>
 
   <div style="text-align: left; max-width: 1100px; margin: 0 auto;">

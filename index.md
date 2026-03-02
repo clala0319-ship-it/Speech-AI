@@ -71,7 +71,23 @@ layout: null
 <h2>Abstract</h2>
   <div class="content-text" style="text-align: center !important;">
     <p style="margin: 0 auto; max-width: 900px; display: inline-block;">
-      본문 내용
+      Converting spoken mathematical expressions into LaTeX is a critical yet under-addressed
+problem: it requires translating ambiguous, conversational speech into a rigid symbolic language while
+recovering precise structure such as nesting, operator precedence, and scope. As lecture capture and AI
+assisted learning tools become ubiquitous, the inability to reliably convert spoken mathematics into editable,
+searchable LaTeX has become a practical bottleneck for education and research—limiting high-quality
+lecture transcription, accessible note-taking, and downstream reuse of mathematical content. Despite major
+advances inautomatic speechrecognition (ASR)andlargelanguagemodels(LLMs),existingapproachesfor
+mathematical ASR post-correction often depend on multiple transcripts, focus on isolated equations rather
+than natural lecture utterances, and are evaluated on small, constrained test sets. These limitations leave the
+real-world lecture settings—where speakers omit terms, reference symbols implicitly, and mix equations
+with explanatory sentences—largely unseen. To close this gap, we release the first fully open-source, large
+scale dataset of spokenmathematics:over30,000human-annotatedaudiosamplesfromrealEnglishlectures,
+spanning diverse scientific domains and covering both equations and mathematical sentences. We also
+introduce a practical conversion pipeline that pairs an ASR post-correction model with a formula-detecting
+LLM to more accurately identify and render mathematical content in lecture speech. On our new S2L
+Equationsbenchmark,ourmodelsoutperformMathSpeechbymorethanxx.xpercentagepoints,establishing
+a strong baseline for speech-to-LaTeX conversion under realistic lecture conditions.
     </p>
   </div>
 

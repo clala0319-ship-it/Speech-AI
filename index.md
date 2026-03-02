@@ -9,7 +9,7 @@ layout: null
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <style>
-  /* 기본 스타일 설정 */
+  /* 기본 스타일 설정 - 전체 Google Sans 적용 */
   body {
     font-family: 'Google Sans', sans-serif;
     color: #333;
@@ -18,47 +18,82 @@ layout: null
     padding: 0;
   }
   
-  /* 메인 컨테이너 */
+  /* 메인 컨테이너 - 통계 섹션 폭(1100px)에 맞춤 */
   .container {
-    max-width: 1200px; /* 화면 폭을 시원하게 넓힘 */
+    max-width: 1100px; 
     margin: 0 auto;
     padding: 40px 20px;
-    text-align: center;
   }
 
-  /* 제목 및 텍스트 스타일 */
-  h1 { font-size: 2.0rem; font-weight: bold; margin-bottom: 10px; line-height: 1.2; }
-  h2 { font-size: 1.8rem; margin-top: 50px; margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 10px; text-align: center;}
+  /* 제목 및 헤더 스타일 */
+  h1 { font-size: 2.3rem; font-weight: bold; margin-bottom: 10px; line-height: 1.2; text-align: center; }
+  h2 { font-size: 1.8rem; margin-top: 50px; margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 10px; text-align: center; font-weight: bold; text-transform: uppercase; }
   h3 { font-size: 1.2rem; margin-top: 30px; margin-bottom: 15px; }
   
   a { color: #209cee; text-decoration: none; }
   a:hover { text-decoration: underline; }
 
-  /* 본문 정렬 */
-  .content-text {
-    text-align: center;
+  /* 본문 정렬 및 리스트 스타일 */
+  .abstract-content {
+    text-align: justify;
+    text-justify: inter-word;
     font-size: 1.1rem;
-    line-height: 1.6;
-    max-width: 900px;
-    margin: 0 auto;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    color: #444;
   }
   
+  .list-content {
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .list-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .list-content li {
+    margin-bottom: 12px;
+  }
+
+  .highlight {
+    font-weight: bold;
+    color: #000;
+  }
 </style>
 
 <div class="container">
 
-  <h1>MathBridge 2 (제목 수정 필요)</h1>
+  <h1>A Data-Centric Approach to Improving Spoken
+Mathematical Equation Recognition with ASR in
+Real-World Lecture Environments</h1>
   
-  <div style="text-align: center; margin-top: 20px;">
-    <a href="#" style="font-size: 1.0rem; color: #209cee; text-decoration: none;">member1</a><sup>1</sup>, 
-    <a href="#" style="font-size: 1.0rem; color: #209cee; text-decoration: none;">member2</a><sup>2</sup>, 
-    <a href="#" style="font-size: 1.0rem; color: #209cee; text-decoration: none;">member3</a><sup>2</sup>,
-    <a href="#" style="font-size: 1.0rem; color: #209cee; text-decoration: none;">member4</a><sup>1,2</sup>
+  <div style="text-align: center; margin-top: 25px; margin-bottom: 15px;">
+    <span style="font-size: 1.4rem; font-weight: 700; color: #000;">
+    <a href="#">Hyeonggi Seong</a><sup>1</sup>, 
+    <a href="#">Namjoon Kim</a><sup>1</sup>, 
+    <a href="#">Hyungon Ryu</a><sup>2</sup>,
+    <a href="#">Jiyeon Shin</a><sup>1</sup>,
+    <a href="#">Haeun Min</a><sup>3</sup>, 
+    <a href="#">Hyungyu Lee</a><sup>3</sup>, 
+    <a href="#">Seeun Jo</a><sup>1</sup>,
+    <a href="#">Sieun Hyun</a><sup>1</sup>,
+    <a href="#">Hyukjae Lee</a><sup>1</sup>
+  </span>
   </div>
   
-  <div style="text-align: center; margin-top: 10px;">
-    <p style="color: #444; font-size: 1.2rem; font-weight: 500; margin: 0;">
-      Seoul National University ....
+<div style="text-align: center;">
+    <p style="color: #666; font-size: 1.1rem; font-weight: 500; margin: 0; line-height: 1.7;">
+    <sup>1</sup>Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, 08826, Republic of Korea (e-mail: author@snu.ac.kr)<br>
+    <sup>2</sup>Chung-Ang University, 84 Heukseok-ro, Dongjak-gu, Seoul, 06974, Republic of Korea (e-mail: author@cau.ac.kr)<br>
+    <sup>3</sup>NVIDIA Korea
+
+  </div>
+
+  <p style="color: #888; font-size: 1.0rem; margin-top: 20px; font-weight: 400;">
+      * Corresponding Author :  HyukJae Lee (e-mail: hjlee@snu.ac.kr).
     </p>
   </div>
 
@@ -67,50 +102,8 @@ layout: null
     <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">💻 Code</a>
     <a href="https://huggingface.co/datasets/delay1/MathBridge2/tree/main" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">🤗 Dataset</a>
   </div>
-<style>
-  .paper-section {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: 'Times New Roman', Times, serif; /* 학술적 느낌을 위한 폰트 설정 */
-    line-height: 1.6;
-    color: #333;
-  }
-  .section-title {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  .abstract-content {
-    text-align: justify;
-    text-justify: inter-word;
-    margin-bottom: 40px;
-    font-size: 1.05em;
-  }
-  .list-content {
-    text-align: left;
-    display: inline-block;
-    width: 100%;
-  }
-  .list-content ul {
-    list-style-type: disc;
-    padding-left: 20px;
-  }
-  .list-content li {
-    margin-bottom: 12px;
-  }
-  .highlight {
-    font-weight: bold;
-    color: #000;
-  }
-</style>
 
-<div class="paper-section">
-  
-  <h2 class="section-title">Abstract</h2>
+  <h2>Abstract</h2>
   <div class="abstract-content">
     Converting spoken mathematical expressions into LaTeX is a critical yet under-addressed 
     problem: it requires translating ambiguous, conversational speech into a rigid symbolic language while 
@@ -133,7 +126,7 @@ layout: null
 
   <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
-  <h2 class="section-title">Key Takeaways</h2>
+  <h2>Key Takeaways</h2>
   <div class="list-content">
     <ul>
       <li><span class="highlight">Introduction of S2L Dataset:</span> We present the first large-scale, open-source dataset for Speech-to-LaTeX (S2L) conversion, featuring over 30,000 human-annotated samples from real lectures and 571,000 synthetic samples.</li>
@@ -143,7 +136,7 @@ layout: null
     </ul>
   </div>
 
-  <h2 class="section-title">Results</h2>
+  <h2>Results</h2>
   <div class="list-content">
     <ul>
       <li><span class="highlight">Superior Performance:</span> Our Enhanced MathSpeech pipeline significantly outperforms existing baselines (e.g., MathSpeech) on the S2L-Equations benchmark in both CER and TexBLEU metrics.</li>
@@ -152,6 +145,88 @@ layout: null
       <li><span class="highlight">Efficiency at Scale:</span> With models as small as 120M parameters, the proposed pipeline offers superior performance-efficiency trade-offs compared to much larger commercial LLMs.</li>
     </ul>
   </div>
+
+  <h2>Statistics</h2>
+
+  <div style="text-align: left; max-width: 1100px; margin: 0 auto;">
+    
+    <h3 style="border-left: 6px solid #209cee; padding-left: 15px;">1. Overview</h3>
+    <p style="font-size: 1.2rem; margin-left: 20px;">
+      <strong>• Total Samples (총 문장 수):</strong> 31,336 개
+    </p>
+
+    <h3 style="border-left: 6px solid #209cee; padding-left: 15px; margin-top: 50px;">2. Distribution of Subjects</h3>
+    
+    <div style="display: flex; align-items: center; gap: 50px; margin: 30px 0; flex-wrap: wrap;">
+      <div style="flex: 1.2; min-width: 400px; text-align: center;">
+        <img src="assets/images/result2.png" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <p style="color: #666; font-size: 1.0rem; margin-top: 15px;">Figure 1. Subject Distribution</p>
+      </div>
+      <div style="flex: 1; min-width: 350px; overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 1.1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <thead style="background-color: #f8f9fa; border-bottom: 2px solid #eee;">
+            <tr><th style="padding: 15px; border:1px solid #ddd;">Field</th><th style="padding: 15px; border:1px solid #ddd;">Count</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding: 12px; border:1px solid #ddd;">Calculus</td><td style="padding: 12px; border:1px solid #ddd;">338</td></tr>
+            <tr><td style="padding: 12px; border:1px solid #ddd;">Algebra</td><td style="padding: 12px; border:1px solid #ddd;">218</td></tr>
+            <tr><td style="padding: 12px; border:1px solid #ddd;">Linear Algebra</td><td style="padding: 12px; border:1px solid #ddd;">9</td></tr>
+            <tr><td style="padding: 12px; border:1px solid #ddd;">Geometry</td><td style="padding: 12px; border:1px solid #ddd;">3</td></tr>
+            <tr><td style="padding: 12px; border:1px solid #ddd;">Economics</td><td style="padding: 12px; border:1px solid #ddd;">2</td></tr>
+            <tr><td style="padding: 12px; border:1px solid #ddd;">Statistics</td><td style="padding: 12px; border:1px solid #ddd;">2</td></tr>
+            <tr><td style="padding: 12px; border:1px solid #ddd;">Analysis</td><td style="padding: 12px; border:1px solid #ddd;">6</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h3 style="border-left: 6px solid #209cee; padding-left: 15px; margin-top: 60px;">3. Math Formula Ratio</h3>
+    
+    <div style="display: flex; align-items: center; gap: 50px; margin: 30px 0; flex-wrap: wrap;">
+      <div style="flex: 1.2; min-width: 400px; text-align: center;">
+        <img src="assets/images/result1.png" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <p style="color: #666; font-size: 1.0rem; margin-top: 15px;">Figure 2. Formula Ratio Analysis</p>
+      </div>
+      <div style="flex: 1; min-width: 350px; overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 1.1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <thead style="background-color: #f8f9fa; border-bottom: 2px solid #eee;">
+            <tr><th style="padding: 15px; border:1px solid #ddd;">Metric</th><th style="padding: 15px; border:1px solid #ddd;">Value</th></tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding: 12px; border:1px solid #ddd; text-align: left;">Total words</td><td style="padding: 12px; border:1px solid #ddd;">1,035,321</td></tr>
+            <tr><td style="padding: 12px; border:1px solid #ddd; text-align: left;">Formula words</td><td style="padding: 12px; border:1px solid #ddd;">112,880</td></tr>
+            <tr><td style="padding: 12px; border:1px solid #ddd; font-weight: bold; color: #107bbd;">Ratio</td><td style="padding: 12px; border:1px solid #ddd; font-weight: bold; color: #107bbd;">10.90%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h3 style="border-left: 6px solid #209cee; padding-left: 15px; margin-top: 60px;">4. Text Length & Diversity</h3>
+    <div style="overflow-x: auto; margin-top: 30px;">
+      <table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 1.0rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+        <thead style="background-color: #f8f9fa; border-bottom: 2px solid #eee;">
+          <tr><th style="padding: 15px; border:1px solid #ddd;">Metric</th><th style="padding: 15px; border:1px solid #ddd;">Count</th></tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding: 12px; border:1px solid #ddd;">Total Tokens</td><td style="padding: 12px; border:1px solid #ddd;">4,545,332</td></tr>
+          <tr><td style="padding: 12px; border:1px solid #ddd;">Avg Tokens/Line</td><td style="padding: 12px; border:1px solid #ddd;">145.08</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <h2>Citation</h2>
+  <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; font-family: monospace; font-size: 0.9rem;">
+    @article{yourname2026s2l,<br>
+    &nbsp;&nbsp;title={S2L: Spoken Mathematical Expressions to LaTeX Dataset},<br>
+    &nbsp;&nbsp;author={Your Name and Collaborators},<br>
+    &nbsp;&nbsp;journal={arXiv preprint arXiv:xxxx.xxxxx},<br>
+    &nbsp;&nbsp;year={2026}<br>
+    }
+  </div>
+
+</div>
 
 </div>
   <h2>Statistics</h2>

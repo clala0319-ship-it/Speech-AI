@@ -104,8 +104,8 @@ Real-World Lecture Environments</h1>
   </div>
 
   <h2>Abstract</h2>
-  <div class="abstract-content">
-    Converting spoken mathematical expressions into LaTeX is a critical yet under-addressed 
+  <div class="abstract-content"><p style="text-indent: 4em;">
+    </p>Converting spoken mathematical expressions into LaTeX is a critical yet under-addressed 
     problem: it requires translating ambiguous, conversational speech into a rigid symbolic language while 
     recovering precise structure such as nesting, operator precedence, and scope. As lecture capture and AI 
     assisted learning tools become ubiquitous, the inability to reliably convert spoken mathematics into editable, 

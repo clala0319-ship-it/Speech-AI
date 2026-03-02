@@ -22,46 +22,17 @@ layout: null
   .container {
     max-width: 1100px; 
     margin: 0 auto;
-    padding: 0px 20px ;
+    padding: 100px 20px 40px 20px;
   }
-  .hero {
-  height: 100vh;           /* 화면 높이 전체 차지 */
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* 세로 중앙 정렬 */
-  align-items: center;     /* 가로 중앙 정렬 */
-  text-align: center;
-  }
-  
+
   /* 제목 및 헤더 스타일 */
-  h1 { font-size: 3.5rem; font-weight: 800; margin-bottom: 30px; line-height: 1.1;  text-align: center;  letter-spacing: 0.05em; color: #1a1a1a; work-break: keep-all;}
-
-  /* 4. 애니메이션 효과: 아래에서 위로 확 붙는 느낌 */
-.reveal {
-  opacity: 0;
-  transform: translateY(50px); /* 50px 아래에서 대기 */
-  transition: all 1.0s cubic-bezier(0.2, 1, 0.3, 1); /* 부드럽게 붙는 타이밍 */
-}
-
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);    /* 원래 위치로 이동 */
-}
+  h1 { font-size: 3.5rem; font-weight: 800; margin-bottom: 25px; line-height: 1.1;  text-align: center;  letter-spacing: -1.5px; color: #1a1a1a;}
   h2 { font-size: 1.8rem; margin-top: 50px; margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 10px; text-align: center; font-weight: bold; text-transform: uppercase; }
   h3 { font-size: 1.2rem; margin-top: 30px; margin-bottom: 15px; }
   
   a { color: #209cee; text-decoration: none; }
   a:hover { text-decoration: underline; }
-  .reveal {
-    opacity: 0;
-    transform: translateY(80px); /* 아래에서 대기 */
-    transition: all 0.8s ease-out; /* 부드럽게 붙는 느낌 */
-  }
 
-  .reveal.active {
-    opacity: 1;
-    transform: translateY(0);    /* 제자리로 확 붙음 */
-  }
   /* 본문 정렬 및 리스트 스타일 */
   .abstract-content {
     text-align: justify;
@@ -94,29 +65,7 @@ layout: null
 </style>
 
 <div class="container">
-<section class="hero">
-    <h1>A Data-Centric Approach to Improving Spoken Mathematical Equation Recognition with ASR in Real-World Lecture Environments</h1>
-    
-    <div class="author-row" style="margin-bottom: 20px;">
-      <span class="author-name" style="font-size: 1.5rem; font-weight: 700;">
-        <a href="#" style="color: inherit;">저자이름1</a><sup>1,*</sup>, 
-        <a href="#" style="color: inherit;">저자이름2</a><sup>2</sup>, 
-        <a href="#" style="color: inherit;">저자이름3</a><sup>2</sup>,
-        <a href="#" style="color: inherit;">저자이름4</a><sup>1,2</sup>
-      </span>
-    </div>
-    
-    <p style="color: #666; font-size: 1.2rem; font-weight: 500;">
-      <sup>1</sup>Seoul National University &nbsp;&nbsp; <sup>2</sup>AI Institute
-    </p>
 
-    <div style="margin-top: 40px; display: flex; gap: 15px;">
-      <a href="#" style="background: #333; color: white; padding: 12px 25px; border-radius: 30px; font-weight: bold;">📄 arXiv</a>
-      <a href="#" style="background: #333; color: white; padding: 12px 25px; border-radius: 30px; font-weight: bold;">💻 Code</a>
-      <a href="https://huggingface.co/datasets/delay1/MathBridge2/tree/main" style="background: #333; color: white; padding: 12px 25px; border-radius: 30px; font-weight: bold;">🤗 Dataset</a>
-    </div>
-  </section>
-  
   <h1>A Data-Centric Approach to Improving Spoken
 Mathematical Equation Recognition with ASR in
 Real-World Lecture Environments</h1>
@@ -153,15 +102,6 @@ Real-World Lecture Environments</h1>
     <a href="#" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">💻 Code</a>
     <a href="https://huggingface.co/datasets/delay1/MathBridge2/tree/main" style="background: #333; color: white; padding: 10px 20px; border-radius: 30px; font-weight: bold;">🤗 Dataset</a>
   </div>
-
-<section class="reveal">
-    <h2>Abstract</h2>
-    <div class="abstract-content">
-      Converting spoken mathematical expressions into LaTeX...
-    </div>
-    
-    </section>
-</div> ```
 
   <h2>Abstract</h2>
   <div class="abstract-content">
@@ -479,25 +419,4 @@ Real-World Lecture Environments</h1>
       <div class="citation-number">[34]</div>
       <div class="citation-text">S. Azodolmolky et al., ‘‘Experimental demonstration of an impairment aware network planning and operation tool for transparent/translucent optical networks,’’ <i>J. Lightw. Technol.</i>, vol. 29, no. 4, pp. 439–448, Sep. 2011.</div>
     </div>
-
-    ```html
-    
-<script>
-  function reveal() {
-    var reveals = document.querySelectorAll(".reveal");
-    for (var i = 0; i < reveals.length; i++) {
-      var windowHeight = window.innerHeight;
-      var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = 100; // 100px 정도 스크롤 되면 나타남
-      if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.add("active");
-      }
-    }
-  }
-  window.addEventListener("scroll", reveal);
-  reveal();
-</script>
-
   </div>
-
-

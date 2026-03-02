@@ -22,11 +22,11 @@ layout: null
   .container {
     max-width: 1100px; 
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 100px 20px 40px 20px;
   }
 
   /* 제목 및 헤더 스타일 */
-  h1 { font-size: 2.3rem; font-weight: bold; margin-bottom: 10px; line-height: 1.2; text-align: center; }
+  h1 { font-size: 3.5rem; font-weight: 800; margin-bottom: 25px; line-height: 1.1;  text-align: center;  letter-spacing: -1.5px; color: #1a1a1a;}
   h2 { font-size: 1.8rem; margin-top: 50px; margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 10px; text-align: center; font-weight: bold; text-transform: uppercase; }
   h3 { font-size: 1.2rem; margin-top: 30px; margin-bottom: 15px; }
   
@@ -146,7 +146,7 @@ Real-World Lecture Environments</h1>
     </ul>
   </div>
 
-</div>
+
   <h2>Statistics</h2>
 
   <div style="text-align: left; max-width: 1100px; margin: 0 auto;">
@@ -420,5 +420,3 @@ Real-World Lecture Environments</h1>
       <div class="citation-text">S. Azodolmolky et al., ‘‘Experimental demonstration of an impairment aware network planning and operation tool for transparent/translucent optical networks,’’ <i>J. Lightw. Technol.</i>, vol. 29, no. 4, pp. 439–448, Sep. 2011.</div>
     </div>
   </div>
-
-</div>
